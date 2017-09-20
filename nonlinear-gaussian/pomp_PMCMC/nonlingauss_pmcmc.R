@@ -127,7 +127,9 @@ library(coda)
 pmcmc1 %>% conv.rec() -> traces
 plot(traces)
 mean(traces[2000:4000,4])  # sigmax
+quantile(traces[2000:4000,4],c(0.025,0.975)) # sigmax
 mean(traces[2000:4000,5])  # sigmay
+quantile(traces[2000:4000,5],c(0.025,0.975)) # sigmay
 # from the above is clear that at about iteration 1000 we approach convergence
 # lets perform more iterations using the parameters covariance obtained from above
 #pmcmc1 %>% pmcmc(Nmcmc=2000,proposal=mvn.rw(covmat(pmcmc1)))
