@@ -1,5 +1,5 @@
 This folder contains a number of experiments from the paper
-Picchini & Samson 2017, Coupling stochastic EM and Approximate Bayesian Computation for parameter inference in state-space models, arXiv:1512.04831.
+Picchini & Samson 2017, Coupling stochastic EM and Approximate Bayesian Computation for parameter inference in state-space models, arXiv:1512.04831 and forthcoming in the journal "Computational Statistics".
 
 - pomp_IF2
   runs the R code implementing the IF2 procedure described in section 4.1.2 of the reference above.

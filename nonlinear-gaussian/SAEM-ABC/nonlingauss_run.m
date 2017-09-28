@@ -10,10 +10,10 @@ saem_numit = 400; % K, the total number of SAEM iterations
 numparticles = 1000;  % M, the number of particles
 N_threshold = 200; % the resampling threshold (\bar{M} in the paper)
 fisherestim_iter = 300; % ignore, this is not used in the paper.
-abc_schedule = [1 80 150 200]; % interpret this together with abc_vector below: from SAEM iterations betwee 1 and 80 we use delta = 2,
+abc_schedule = [1 80 150 200]; % interpret this together with abc_vector below: from SAEM iterations between 1 and 80 we use delta = 2,
                                % from iteration 80 to iteration 150 we use delta=1.7,
                                % from iteration 150 to iteration 200 we use delta=1.3,
-                               % from iteration 200 to iteration saem_numitwe use delta=1.
+                               % from iteration 200 to iteration saem_numit we use delta=1.
 abc_vector = [2 1.7 1.3 1];  % the DECREASING sequence of ABC thresholds delta
 verbose = 1;
 
