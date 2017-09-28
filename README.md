@@ -5,3 +5,5 @@ This repository contains example code for the paper by Picchini and Samson 2017,
 The code was written by Umberto Picchini (firstname dot secondname at gmail.com)
 
 Notice there are several README files. Please read those before contacting the author. Not everything is commented in great detail, and it is beneficial to read the paper above first.
+
+The core code illustrating the methodology is written in MATLAB. Some comparisons are written in R, see the folders "pomp_IF2", "pomp_PMCMC" and "theophylline_PMCMC".
